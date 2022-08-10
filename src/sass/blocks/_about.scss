@@ -51,8 +51,8 @@
             position: relative;
             @include before_circle;
             &:before {
-                top: 5px;
-                left: 2px;
+                top: 4px;
+                left: 1px;
             }
             img {
                 display: block;
