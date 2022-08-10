@@ -22,3 +22,12 @@ window.addEventListener("keydown", (e) => {
                 menu.classList.remove('active');
     }
 });
+
+//tools auto percentage count
+
+const counters = document.querySelectorAll('.tools__amountitem-perc');
+const lines = document.querySelectorAll('.tools__amountitem-maincolor');
+
+counters.forEach( (item, i) => {
+    lines[i].style.width = item.innerHTML;
+});
